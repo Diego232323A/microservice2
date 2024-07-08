@@ -1,6 +1,6 @@
 # Microservice
 
-This repository contains three basic microservices that simulate a user system. Each microservice is developed in Node.js and can run in a Docker container.
+This repository contains three basic microservices that simulate a user system. It is developed in Node.js and can run in a Docker container.
 
 ### Product Service
 
@@ -28,4 +28,8 @@ For each microservice, follow these steps:
       npm install
 4. Build and run the Docker container:
       docker build -t microservice2
-      docker run -d -p 3002:3002 microservice2
+      docker run -d -p 3000:3000 microservice2
+5. Run the project:
+      node index.js
+6. URL:
+      http://localhost:3000/users
